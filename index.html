@@ -45,47 +45,39 @@
     </nav>
 
     <!-- Showcase -->
-    <section class="bg-white text-center text-sm-start fixed">
-      <div class="container-fluid text-center">
-        <div class="card text-bg-dark" style="border: none">
-          <img
-            src="./assets/bg-masthead.jpg"
-            style="width: 100%; height: 50%"
-            class="card-img"
-            alt="..."
-          />
-          <div class="card-img-overlay">
-            <h5 class="card-title" style="font-size: 48px">
-              Generate more leads with a <br />professional landing page!
-            </h5>
+    <section class="" style="background-color: #0a58ca">
+      <div class="container position-relative">
+        <div class="row justify-content-center">
+          <div class="col-xl-6 m-5 p-5">
+            <div class="text-center text-white">
+              <h1 class="mb-5">
+                Generate more leads with a professional landing page!
+              </h1>
 
-            <input
-              type="email"
-              placeholder="Email Address"
-              style="
-                width: 408px;
-                height: 60px;
-                font-size: 20px;
-                font-family: Lato, -apple-system, BlinkMacSystemFont, Segoe UI,
-                  Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji,
-                  Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-                border: 1px solid #212529;
-                outline: none;
-              "
-              class="rounded"
-            />
-
-            <button
-              class="btn"
-              style="
-                background-color: #0d6efd;
-                height: 60px;
-                width: 87px;
-                color: #f4f4f4;
-              "
-            >
-              Submit
-            </button>
+              <form>
+                <div class="row">
+                  <div class="col">
+                    <input
+                      class="form-control form-control-lg"
+                      id="emailAddress"
+                      type="email"
+                      placeholder="Email Address"
+                      data-sb-validations="required,email"
+                      data-sb-can-submit="no"
+                    />
+                  </div>
+                  <div class="col-auto">
+                    <button
+                      class="btn btn-primary btn-lg disabled"
+                      id="submitButton"
+                      type="submit"
+                    >
+                      Submit
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>
@@ -98,7 +90,7 @@
     >
       <div class="container">
         <div class="row text-center">
-          <div class="col-sm-4 mb-3 mb-sm-0">
+          <div class="col-sm-4 mb-5 mt-5 pb-5">
             <div class="mt-1">
               <div class="card-body">
                 <a href="#" class="btn fs-1 text-primary"
@@ -121,7 +113,7 @@
             </div>
           </div>
 
-          <div class="col-sm-4">
+          <div class="col-sm-4 mb-5 mt-5 pb-5">
             <div class="">
               <div class="card-body">
                 <a href="#" class="btn fs-1 text-primary"
@@ -144,7 +136,7 @@
             </div>
           </div>
 
-          <div class="col-sm-4">
+          <div class="col-sm-4 mb-5 mt-5 pb-5">
             <div class="">
               <div class="card-body">
                 <a href="#" class="btn fs-1 text-primary"
@@ -172,35 +164,43 @@
 
     <!-- Punto -->
     <section class="text-center text-sm-start" style="background-color: #fff">
-      <div class="container-fluid">
+      <div class="container-fluid p-0">
         <div class="row">
           <div class="col-lg p-5">
             <h2
               class="pb-1 text-start"
-              style="font-size: 32spx; color: #212529"
+              style="
+                font-size: 32px;
+                color: #212529;
+                font-weight: 600;
+                font-family: Lato, -apple-system, BlinkMacSystemFont, Segoe UI,
+                  Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji,
+                  Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+              "
             >
               Fully Responsive Design
             </h2>
             <p
-              class="fw-semibold text-start"
+              class="text-start"
               style="
                 color: #212529;
                 font-size: 20px;
                 font-weight: 300;
+                width: 727px;
                 font-family: Lato, -apple-system, BlinkMacSystemFont, Segoe UI,
                   Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji,
                   Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
               "
             >
               When you use a theme created by Start Bootstrap, you know that the
-              theme will look great on any device, whether its a phone, tablet,
-              or desktop the page will behave responsively
+              theme will look great on any device, whether it's a phone, tablet,
+              or desktop the page will behave responsively!
             </p>
           </div>
           <div class="col-md mb-4">
             <img
               src="./assets/bg-showcase-1.jpg"
-              class="img-fluid responsive"
+              class="col-lg-6"
               style="height: 480px; width: 100%"
               alt=""
             />
@@ -211,23 +211,41 @@
 
     <!-- Punto -->
     <section class="text-center text-sm-start" style="background-color: #fff">
-      <div class="container-fluid">
+      <div class="container-fluid p-0">
         <div class="row">
-          <div class="col-md mb-4">
+          <div class="col-md">
             <img
               src="./assets/bg-showcase-2.jpg"
-              class="img-fluid responsive"
+              class="col-lg-6 order-lg-2"
               style="height: 480px; width: 100%"
               alt=""
             />
           </div>
           <div class="col-lg p-5">
-            <h2 class="pb-4 text-start" style="font-size: 40px; color: #5b5b5b">
-              Update for Bootstrap 5
+            <h2
+              class="pb-1 text-start"
+              style="
+                font-size: 32px;
+                color: #212529;
+                font-weight: 600;
+                font-family: Lato, -apple-system, BlinkMacSystemFont, Segoe UI,
+                  Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji,
+                  Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+              "
+            >
+              Updated For Bootstrap 5
             </h2>
             <p
-              class="lead fw-semibold text-start"
-              style="color: #212529; font-size: 20px; font-weight: 300"
+              class="text-start"
+              style="
+                color: #212529;
+                font-size: 20px;
+                font-weight: 300;
+                width: 727px;
+                font-family: Lato, -apple-system, BlinkMacSystemFont, Segoe UI,
+                  Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji,
+                  Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+              "
             >
               Newly improved, and full of great utility classes, Bootstrap 5 is
               leading the way in mobile responsive web development! All of the
@@ -240,26 +258,44 @@
 
     <!-- Punto btc -->
     <section class="text-center text-sm-start" style="background-color: #fff">
-      <div class="container-fluid">
+      <div class="container-fluid p-0">
         <div class="row">
-          <div class="col-lg p-5">
-            <h2 class="pb-4 text-start" style="font-size: 40px; color: #5b5b5b">
+          <div class="col-md p-5">
+            <h2
+              class="pb-1 text-start"
+              style="
+                font-size: 32px;
+                color: #212529;
+                font-weight: 600;
+                font-family: Lato, -apple-system, BlinkMacSystemFont, Segoe UI,
+                  Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji,
+                  Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+              "
+            >
               Easy to Use & Customize
             </h2>
             <p
-              class="lead fw-semibold text-start"
-              style="color: #212529; font-size: 20px; font-weight: 300"
+              class="text-start"
+              style="
+                color: #212529;
+                font-size: 20px;
+                font-weight: 300;
+                width: 727px;
+                font-family: Lato, -apple-system, BlinkMacSystemFont, Segoe UI,
+                  Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji,
+                  Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+              "
             >
-              Landing Page is just HTML and CSS with a splash of SCSS for users
+              Landking Page is just HTML and CSS with a splash of SCSS for users
               who demand some deeper customization options. Out of the box, just
-              add your content and images, and your new lading page will be
+              add your content and images, and your new landing page will be
               ready to go!
             </p>
           </div>
-          <div class="col-md mb-4">
+          <div class="col-lg mb-4">
             <img
               src="./assets/bg-showcase-3.jpg"
-              class="img-fluid responsive"
+              class="col-lg-6 order-lg-2"
               style="height: 480px; width: 100%"
               alt=""
             />
@@ -269,14 +305,14 @@
     </section>
 
     <!-- Punto btc -->
-    <section class="p-5">
+    <section class="p-0" style="background-color: rgb(248, 249, 250)">
       <div class="container-fluid">
         <div class="row text-center g-4 justify-content-center">
           <h1 class="fs-2 darkk">What people are saying...</h1>
         </div>
 
-        <div class="row justify-content-center mt-3">
-          <div class="col-md-6 col-lg-3">
+        <div class="row justify-content-center mt-5">
+          <div class="col-md-6 col-lg-3 mb-5">
             <div class="">
               <div class="text-center">
                 <img
@@ -294,7 +330,7 @@
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-3">
+          <div class="col-md-6 col-lg-3 mb-5">
             <div class="">
               <div class="text-center">
                 <img
@@ -313,7 +349,7 @@
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-3">
+          <div class="col-md-6 col-lg-3 mb-5">
             <div class="">
               <div class="text-center">
                 <img
@@ -336,29 +372,67 @@
     </section>
 
     <!-- Punto btc -->
-    <section class="p-5">
-      <div class="container">
-        <div class="row text-center g-4 justify-content-center">
-          <h3 class="" style="font-size: 32px">
-            Ready to get started? Sign up now!
-          </h3>
-        </div>
+    <section class="text-center" style="background-color: #0a58ca">
+      <div class="container position-relative">
+        <div class="row justify-content-center">
+          <div class="col-xl-6 p-5 m-5">
+            <h2 class="mb-4">Ready to get started? Sign up now!</h2>
 
-        <div
-          class="container input-group mb-3 mt-4 fuild"
-          style="max-width: 600px"
-        >
-          <input
-            type="email"
-            class="form-control"
-            placeholder="Your Email"
-            aria-describedby="inputGroup-sizing-default"
-          />
-          <span
-            class="input-group-text btn btn-danger fw-semibold"
-            id="inputGroup-sizing-default"
-            >Submit</span
-          >
+            <form>
+              <div class="row">
+                <div class="col">
+                  <input
+                    class="form-control form-control-lg"
+                    type="email"
+                    placeholder="Email Address"
+                  />
+                </div>
+                <div class="col-auto">
+                  <button
+                    class="btn btn-primary btn-lg disabled"
+                    id="submitButton"
+                    type="submit"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="p-5 mt-5">
+      <div class="container">
+        <div class="container text-center">
+          <div class="row align-items-center">
+            <div class="col">
+              <h6>About . Contact . Terms of Use . Privacy Policy</h6>
+              <p class="text-secondary">
+                @ Your Website 2023. All Rights Reserved.
+              </p>
+            </div>
+
+            <div class="col">
+              <a
+                href=""
+                class="bi bi-facebook me-4"
+                style="font-size: 28px; color: #0a58ca"
+              ></a>
+              <a
+                href=""
+                class="bi bi-instagram me-4"
+                style="font-size: 28px; color: #0a58ca"
+              ></a>
+              <a
+                href=""
+                class="bi bi-twitter"
+                style="font-size: 28px; color: #0a58ca"
+              ></a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
